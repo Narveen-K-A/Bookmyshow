@@ -1,0 +1,44 @@
+*{
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto,sans-serif;
+}
+/* common styles */
+.dFlex{
+    display: flex;
+}
+.jCenter{
+    justify-content: center;
+}
+.width20{
+    width: 20px;
+}
+.blackbg{
+    background-color: #222539;
+}
+.whitecolor{
+    color: #cccccc;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.padding5{
+    padding: 5px;
+}
+.tdn{
+    text-decoration: none;
+}
+/* for specific class */
+.header{
+    border-top: 40px;
+    background-color: #333545;
+}
+.logo{
+    width: 165px;
+}
+
