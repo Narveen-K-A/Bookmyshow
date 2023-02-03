@@ -27,11 +27,43 @@ body{
 .jcsb{
     justify-content: space-between;
 }
-.padding5{
-    padding: 5px;
+.padding010{
+    padding: 0px 10px;
+}
+.padding012{
+    padding: 0px 12px;
 }
 .tdn{
     text-decoration: none;
+}
+.cursorp{
+    cursor: pointer;
+}
+.smallfont{
+    font-size: 14px;
+    font-weight: 400;
+}
+.extrasmallfont{
+    font-size: 12px;
+    font-weight: 400;
+}
+.height40{
+    height: 40px;
+}
+.alignc{
+    align-items: center;
+}
+.positionr{
+    position: relative;
+}
+.marginleft60{
+    margin-left: 60px;
+}
+.marginright60{
+    margin-right: 60px;
+}
+.colorffffff{
+    color: #ffffff;
 }
 /* for specific class */
 .header{
@@ -40,5 +72,19 @@ body{
 }
 .logo{
     width: 165px;
+}
+.new{
+    font-size: 8px;
+    color: #e7364d;
+    font-weight: 500;
+    position: absolute;
+    right: 0px;
+    bottom: 90%;
+}
+.whitehover:hover{
+    color: #ffffff;
+}
+.loginmodal{
+    width: 500px;
 }
 

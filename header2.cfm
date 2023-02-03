@@ -1,39 +1,43 @@
-<div class="dFlex blackbg whitecolor jcsb">
-    <div class="dFlex">
-        <div class="padding5">
-            <a class="tdn" href="movies.cfm">Movies</a>
+<div class="dFlex blackbg jcsb height40 alignc">
+    <div class="dFlex marginleft60">
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor whitehover whitecolor whitecolor" href="movies.cfm">Movies</a>
         </div>
-        <div class="padding5">
-            Stream
+        <div class="padding010 positionr">
+            <a class="tdn smallfont whitehover whitecolor whitecolor" href="movies.cfm">Stream
+                <div class="new">NEW</div>
+            </a>
         </div>
-        <div class="padding5">
-            Events
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor" href="movies.cfm">Events</a>
         </div>
-        <div class="padding5">
-            Plays
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor" href="movies.cfm">Plays</a>
         </div>
-        <div class="padding5">
-            Sports
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor" href="movies.cfm">Sports</a>
         </div>
-        <div class="padding5">
-            Activities
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor" href="movies.cfm">Activities</a>
         </div>
-        <div class="padding5">
-            Buzz
+        <div class="padding010">
+            <a class="tdn smallfont whitehover whitecolor" href="movies.cfm">Buzz</a>
         </div>
     </div>
-    <div class="dFlex">
-        <div>
-            ListYourShow
+    <div class="dFlex marginright60">
+        <div class="padding012 positionr">
+            <a class="tdn extrasmallfont colorffffff whitehover" href="movies.cfm">ListYourShow
+                <div class="new">NEW</div>
+            </a>
         </div>
-        <div>
-            Corporates
+        <div class="padding012">
+            <a class="tdn extrasmallfont colorffffff whitehover" href="movies.cfm">Corporates</a>
         </div>
-        <div>
-            Offers
+        <div class="padding012">
+            <a class="tdn extrasmallfont colorffffff whitehover" href="movies.cfm">Offers</a>
         </div>
-        <div>
-            Giftcards
+        <div class="padding012">
+            <a class="tdn extrasmallfont colorffffff whitehover" href="movies.cfm">Giftcards</a>
         </div>
     </div>
 </div>
