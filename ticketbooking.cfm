@@ -72,6 +72,26 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <a href="home.cfm">Home</a>
+                ->
+                <a href="movies.cfm">Movies in</a>
+                ->
+                <a href="paricularmovie.cfm">
+                    <!--- movie name --->
+                </a>
+            </div>
+            <div>
+                LATEST MOVIES IN TRIVANDRUM
+            </div>
+            <div>
+                <h2>Privacy note</h2>
+                By using www.bookmyshow.com(our website), you are fully accepting the Privacy Policy available at 
+                <a href="privacy.cfm">privacy.cfm</a>
+                governing your access to Bookmyshow and provision of services by Bookmyshow to you. If you do not accept terms mentioned in the
+                <a href="privacy.cfm">Privacy Policy</a>
+                , you must not share any of your personal information and immediately exit Bookmyshow.
+            </div>
         </cfoutput>
     </body>
 </html>
