@@ -1,6 +1,6 @@
 <div class="header dFlex">
     <div class="headerLeft">
-        <a href="#"><img class="logo" src="assets/logo.jpg" alt="logo"></a>
+        <a href="home.cfm"><img class="logo" src="assets/logo.jpg" alt="logo"></a>
     </div>
     <div class="headerMiddle">
         <div>

@@ -12,7 +12,9 @@
             <cfinclude template="header2.cfm">
             <div class="d-flex">
                 <div>
-                    <img src="assets/pathaan.avif">
+                    <a href="particularmovie.cfm">
+                        <img src="assets/pathaan.avif">
+                    </a>
                 </div>
                 <div>
                     <img src="assets/malikappuram.avif">

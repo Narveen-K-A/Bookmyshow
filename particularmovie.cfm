@@ -10,23 +10,14 @@
             <!--- header begins --->
             <cfinclude template="header.cfm">
             <cfinclude template="header2.cfm">
+            <!--- header ends --->
+            <!--- main body starts --->
             <div class="d-flex">
-                <div>
-                    <img src="assets/pathaan.avif">
-                </div>
-                <div>
-                    <img src="assets/malikappuram.avif">
-                </div>
-                <div>
-                    <img src="assets/iratta.avif">
-                </div>
-                <div>
-                    <img src="assets/romancham.avif">
-                </div>
-                <div>
-                    <img src="assets/vedikettu.avif">
-                </div>
+                <a href="ticketbooking.cfm">
+                    <button>Book tickets</button>
+                </a>
             </div>
+            <!--- main body ends --->
         </cfoutput>
     </body>
 </html>
