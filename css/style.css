@@ -65,6 +65,48 @@ body{
 .colorffffff{
     color: #ffffff;
 }
+.buttonPrimary{
+    background-color: #f84464;
+    color: #ffffff;
+    width: 49%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
+.buttonSecondary{
+    background: #fff;
+    color: #f84464;
+    border: 1px solid #f84464;
+    width: 49%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
+.borderRadius{
+    border-radius: 5px;
+}
+.lineheight{
+    line-height: 20px;
+}
+.padding15{
+    padding: 15px;
+}
+.seatButton{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: #333;
+    margin: 15px;
+}
+.seatButton:hover{
+    background-color: #f84464;
+    color: #fff;
+}
+.textcolor{
+    color: #dc3558;
+}
 /* for specific class */
 .header{
     border-top: 40px;
@@ -87,4 +129,22 @@ body{
 .loginmodal{
     width: 500px;
 }
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+.modalheader{
+    padding: 25px 35px;
+    font-size: 16px;
+    color: #000000;
+}
+
 

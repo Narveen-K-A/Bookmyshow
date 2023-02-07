@@ -2,10 +2,16 @@
     MOVIES NOW SHOWING IN TRIVANDRUM
 </div>
 <div>
-    <a></a>
-    <a></a>
-    <a></a>
-    <a></a>
+    <a>Romancham</a>
+    <a>Christopher</a>
+    <a>Malikappuram (Malayalam)</a>
+    <a>Vedikettu</a>
+    <a>Iratta</a>
+    <a>Pathaan</a>
+    <a>Thankam</a>
+    <a>Michael</a>
+    <a>Momo in Dubai</a>
+    <a>Ant-Man and the Wasp: Quantumania</a>
 </div>
 <div>
     UPCOMING MOVIES IN TRIVANDRUM
