@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="assets/modal.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
         <script src="assets/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <cfoutput>
@@ -24,31 +25,31 @@
                             <div class="w3-modal-content w3-animate-left w3-card-4 borderRadius"> 
                                 <span onclick="document.getElementById('id100').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                                 <h2>THEATRE DETAILS</h2>
-                                <form method="post" name="theatreForm">
+                                <form method="post" name="theatreForm" onsubmit="return validatetheatreform()">
                                     <div class="w3-container">
                                         <input type="text" placeholder="Enter Theatre ID!" name="theatreid" id="theatre01" class=""><br>
+                                        <small id="theatreid_error">Please</small><br>
                                         <input type="text" placeholder="Enter Theatre Name!" name="theatrename" id="theatre02" class=""><br>
+                                        <small id="theatrename_error">Please</small><br>
                                         <input type="text" placeholder="Enter Theatre Location!" name="theatreloc" id="theatre03" class=""><br>
+                                        <small id="theatreloc_error">Please</small><br>
                                         <input type="text" placeholder="Enter Price Per Seat!" name="theatreprice" id="theatre04" class=""><br>
+                                        <small id="theatreprice_error">Please</small><br>
                                         <h6>Select Show Time!</h6>
-                                        <input type="checkbox" value="9:00 AM" name="theatreshow" id="theatre05" class="">
-                                        <label for="show01">9:00 AM</label><br>
-                                    <!---    <input type="checkbox" id="show2" name="show02" value="12:00 PM" name="theatreshow" id="theatre06" class="">
-                                        <label for="show02">12:00 PM</label><br>
-                                        <input type="checkbox" id="show3" name="show03" value="3:00 PM" name="theatreshow" id="theatre07" class="">
-                                        <label for="show03">3:00 PM</label><br>
-                                        <input type="checkbox" id="show4" name="show04" value="6:00 PM" name="theatreshow" id="theatre08" class="">
-                                        <label for="show04">6:00 PM</label><br>
-                                        <input type="checkbox" id="show5" name="show05" value="9:00 PM" name="theatreshow" id="theatre09" class="">
-                                        <label for="show05">9:00 PM</label><br> --->
-                                        <input type="text" placeholder="Enter Movie ID For This Particular Theatre!" name="movieid" id="theatre10" class=""><br>
+                                        <div id='input-cont'>
+                                            <input type="text" placeholder="Enter Price Per Seat!" name="theatre05" id="theatre" class=""><br>
+                                        </div>
+                                        <button type="button" onclick="addInput()">+Add input</button><br>
+                                        <small id="theatreshow_error">Please</small><br>
+                                        <input type="text" placeholder="Enter Movie ID For This Particular Theatre!" name="movieid" id="theatre06" class=""><br>
+                                        <small id="movieid_error">Please</small><br>
                                     </div>
                                     <button onclick="document.getElementById('id100').style.display='none'" class="buttonSecondary">CANCEL</button>
-                                    <button type="submit" id="theatresubmit" name="theatresub" onclick="document.getElementById('id100').style.display='none'" class="buttonPrimary">SUBMIT</button>
+                                    <button type="submit" id="theatresubmit" name="theatresub" class="buttonPrimary">SUBMIT</button>
                                 </form>
-                                <cfif structKeyExists(form,'theatresub')>
+                                <!--- <cfif structKeyExists(form,'theatresub')>
                                     <cfinvoke component="components/component" method="getTheatredata">
-                                </cfif>
+                                </cfif> --->
                             </div>
                         </div>
                     </div>

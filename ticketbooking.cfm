@@ -11,7 +11,7 @@
             <cfinclude template="header.cfm">
             <cfinclude template="header2.cfm">
             <div>
-                <button onclick="document.getElementById('id10').style.display='block'" class="w3-button w3-black">Location</button>
+                <button onclick="document.getElementById('id10').style.display='block'" class="buttonPrimary">Show Time</button>
                 <div id="id10" class="w3-modal">
                     <div class="w3-modal-content w3-animate-top w3-card-4 borderRadius">
                         <div class="w3-container">

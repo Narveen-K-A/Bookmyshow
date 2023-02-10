@@ -146,5 +146,14 @@ body{
     font-size: 16px;
     color: #000000;
 }
+#theatreid_error,
+#theatrename_error,
+#theatreloc_error,
+#theatreprice_error,
+#theatreshow_error,
+#movieid_error{
+    color: #e7364d;
+    visibility: hidden;
+}
 
 
