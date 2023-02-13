@@ -155,5 +155,16 @@ body{
     color: #e7364d;
     visibility: hidden;
 }
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 

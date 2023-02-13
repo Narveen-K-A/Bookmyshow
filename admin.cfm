@@ -37,7 +37,7 @@
                                         <small id="theatreprice_error">Please</small><br>
                                         <h6>Select Show Time!</h6>
                                         <div id='input-cont'>
-                                            <input type="text" placeholder="Enter Price Per Seat!" name="theatre05" id="theatre" class=""><br>
+                                            <input type="text" placeholder="Enter Show time!" name="theatreshow" id="theatre05" class=""><br>
                                         </div>
                                         <button type="button" onclick="addInput()">+Add input</button><br>
                                         <small id="theatreshow_error">Please</small><br>

@@ -9,8 +9,10 @@
         <!--- header begins --->
         <cfinclude template="header.cfm">
         <cfinclude template="header2.cfm">
-        <div>
+        <div class="container">
             <img src="assets/contactus.avif">
+        </div>
+        <div class="centered">
             <h1>Contact Us</h1>
             <h5>Drop Us A Line, Get In Touch!</h5>
         </div>

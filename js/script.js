@@ -6,11 +6,16 @@ function closeNav(){
   document.getElementById("mySidenav").style.width = "0";
 }
 
+var theatrecount = 0;
+
 function addInput(){
   const container = document.getElementById('input-cont');
   let input = document.createElement('input');
-  input.placeholder = 'Type something';
+  input.placeholder = 'Enter Show time!';
+  input.setAttribute('name','theatreshow');
   container.appendChild(input);
+  input.id = theatrecount;
+  theatrecount++;
 }
 
 function validatetheatreform(){
@@ -19,7 +24,6 @@ function validatetheatreform(){
   var theatreloc = document.getElementById('theatre03');
   var theatreprice = document.getElementById('theatre04');
   var theatreshow = document.getElementsByName('theatre05');
-  console.log(theatreshow)
 
   var validatetheatreid = theatreidValidate(theatreid);
   var validatetheatrename = theatrenameValidate(theatrename);
@@ -88,5 +92,13 @@ function theatreshowValidate(theatreshow){
   }else{
      success('theatreshow_error');
      return true;
+  }
+}
+
+var modal = document.getElementById("id100");
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
 }
