@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="assets/modal.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
         <script src="assets/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <cfoutput>
@@ -39,20 +40,25 @@
                                     <div class="w3-modal-content w3-animate-top w3-card-4 borderRadius">
                                         <div class="w3-container">
                                             <div class="text-center modalheader">How Many Seats?</div>
-                                            <div>
-                                                <img src="vehicle.png">
+                                            <div class="d-flex justify-content-center">
+                                                <span><img src="assets/cycle.PNG" id="cycle"></span>
+                                                <span><img src="assets/bike.PNG" id="bike"></span>
+                                                <span><img src="assets/auto.PNG" id="auto"></span>
+                                                <span><img src="assets/car.PNG" id="car"></span>
+                                                <span><img src="assets/car2.PNG" id="car2"></span>
+                                                <span><img src="assets/tempo.PNG" id="tempo"></span>
                                             </div>
-                                            <div>
-                                                <button class="seatButton">1</button>
-                                                <button class="seatButton">2</button>
-                                                <button class="seatButton">3</button>
-                                                <button class="seatButton">4</button>
-                                                <button class="seatButton">5</button>
-                                                <button class="seatButton">6</button>
-                                                <button class="seatButton">7</button>
-                                                <button class="seatButton">8</button>
-                                                <button class="seatButton">9</button>
-                                                <button class="seatButton">10</button>
+                                            <div class="d-flex justify-content-center">
+                                                <button class="seatButton button1" onmouseover="vehiclechange('cycle')">1</button>
+                                                <button class="seatButton button2" onmouseover="vehiclechange('bike')">2</button>
+                                                <button class="seatButton button3" onmouseover="vehiclechange('auto')">3</button>
+                                                <button class="seatButton button4" onmouseover="vehiclechange('car')">4</button>
+                                                <button class="seatButton button5" onmouseover="vehiclechange('car2')">5</button>
+                                                <button class="seatButton button5" onmouseover="vehiclechange('car2')">6</button>
+                                                <button class="seatButton button5" onmouseover="vehiclechange('car2')">7</button>
+                                                <button class="seatButton button6" onmouseover="vehiclechange('tempo')">8</button>
+                                                <button class="seatButton button6" onmouseover="vehiclechange('tempo')">9</button>
+                                                <button class="seatButton button6" onmouseover="vehiclechange('tempo')">10</button>
                                             </div>
                                             <div class="d-flex justify-content-around">
                                                 <div>
@@ -71,9 +77,9 @@
                                                     <div>Available</div>
                                                 </div>
                                             </div>
-                                            <div>
+                                            <div class="d-flex justify-content-around">
                                                 <a href="seatlayout.cfm">
-                                                    <button class="buttonPrimary">Select seats</button>
+                                                    <button class="buttonPrimary width100">Select seats</button>
                                                 </a>
                                             </div>
                                         </div>

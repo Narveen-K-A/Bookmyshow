@@ -102,3 +102,45 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function vehiclechange(picture){
+  var cycle = document.getElementById("cycle");
+  var bike = document.getElementById("bike");
+  var auto = document.getElementById("auto");
+  var car = document.getElementById("car");
+  var car2 = document.getElementById("car2");
+  var tempo = document.getElementById("tempo");
+
+  cycle.style.display="none";
+  bike.style.display="none";
+  auto.style.display="none";
+  car.style.display="none";
+  car2.style.display="none";
+  tempo.style.display="none";
+
+  console.log(picture);
+
+  if(picture=="cycle"){
+    cycle.style.display="block";
+  }
+
+  if(picture=="bike"){
+    bike.style.display="block";
+  }
+
+  if(picture=="auto"){
+    auto.style.display="block";
+  }
+
+  if(picture=="car"){
+    car.style.display="block";
+  }
+
+  if(picture=="car2"){
+    car2.style.display="block";
+  }
+
+  if(picture=="tempo"){
+    tempo.style.display="block";
+  }
+}

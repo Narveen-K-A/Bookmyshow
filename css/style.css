@@ -107,6 +107,9 @@ body{
 .textcolor{
     color: #dc3558;
 }
+.width100{
+    width: 100%;
+}
 /* for specific class */
 .header{
     border-top: 40px;
