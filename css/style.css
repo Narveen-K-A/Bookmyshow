@@ -110,13 +110,26 @@ body{
 .width100{
     width: 100%;
 }
+.width20{
+    width: 20px;
+    cursor: pointer;
+}
+.width10{
+    width: 10px;
+}
+.margin20{
+    margin: 20px;
+}
+.border20{
+    border: 20px;
+}
 /* for specific class */
 .header{
-    border-top: 40px;
     background-color: #333545;
 }
 .logo{
-    width: 165px;
+    width: 125px;
+    margin: 12px;
 }
 .new{
     font-size: 8px;
@@ -128,6 +141,7 @@ body{
 }
 .whitehover:hover{
     color: #ffffff;
+    text-decoration: none;
 }
 .loginmodal{
     width: 500px;
@@ -168,6 +182,74 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.headerLeft{
+    margin-left: 40px;
+}
+.signinButton{
+    background-color: #f84464;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #f84464;
+}
+.location{
+    background-color: #333545;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cccccc;
+    padding-right: 15px;
+    line-height: 19px;
+}
+.middle{
+	display: flex;
+	align-items: center;
+	border: 1px solid #c9c7c5;
+	border-radius: 5px;
+    margin-top: 17px;
+}
+.middle img{
+	width: 15px;
+	margin: 5px;
+}
+.middle input{
+	font-size: 14px;
+    color: #999999;
+	width: 525px;
+	outline: none;
+    height: 32px;
+}
+.headerRight{
+    margin-left: 350px;
+}
+.margin{
+    margin: 20px 20px 20px 0px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.login{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-top: 25px;
+}
+.loginInput{
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #595959;
+    background: #ffffff;
+    border: 1px solid #999999;
+}
+.width30per{
+    width: 20%;
+}
 
 

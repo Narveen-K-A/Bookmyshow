@@ -3,8 +3,9 @@
         <a href="home.cfm"><img class="logo" src="assets/logo.jpg" alt="logo"></a>
     </div>
     <div class="headerMiddle">
-        <div>
-            <button onclick="document.getElementById('id00').style.display='block'" class="w3-button">
+        <div class="middle">
+            <button onclick="document.getElementById('id00').style.display='block'">
+				<img src="assets/search.png" alt="Search">
                 <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
             </button>
             <div id="id00" class="w3-modal">
@@ -20,7 +21,10 @@
     </div>
     <div class="headerRight dFlex">
         <div>
-            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Location</button>
+            <button onclick="document.getElementById('id01').style.display='block'" class="location whitehover margin20">
+                Location
+                <img src="assets/down.png" class="width10">
+            </button>
             <div id="id01" class="w3-modal">
                 <div class="w3-modal-content w3-animate-top w3-card-4">
                     <div class="w3-container">
@@ -70,11 +74,31 @@
             </div>
         </div>
         <div>
-            <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black">Sign In</button>
+            <button onclick="document.getElementById('id02').style.display='block'" class="signinButton margin">Sign In</button>
             <div id="id02" class="w3-modal">
                 <div class="w3-modal-content w3-animate-top w3-card-4">
                     <div class="w3-container">
                         <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <form method="post" name="myform" onsubmit="return validatemyform()">
+                            <div class="login">Get started</div>
+                            <div>
+                                <div class="d-flex justify-content-center margin20">
+                                    <div>
+                                        <input type="text" name="username" class="loginInput border20" id="uname" placeholder="Username" onblur="validatemyform()"><br>
+                                        <div id="uname_error">Please enter the username!</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center margin20">
+                                    <div>
+                                        <input type="password" name="password" class="loginInput border20 " id="pswd" placeholder="Password" onblur="validatemyform()"><br>
+                                        <span id="pswd_error">Please enter your password!</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center margin20">
+                                    <input type="submit" id="formsubmit" name="formsubmit" class="buttonPrimary width30per" value="LOGIN">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -86,8 +110,10 @@
             <a href="#">Clients</a>
             <a href="#">Contact</a>
         </div>
-        <div>
-            <span onclick="openNav()">&#9776;</span>
+        <div class="marginTop20">
+            <span onclick="openNav()">
+                <img src="assets/menu.png" class="width20">
+            </span>
         </div>
     </div>
 </div>
