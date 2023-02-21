@@ -123,6 +123,10 @@ body{
 .border20{
     border: 20px;
 }
+.errorhide{
+    color: red;
+    visibility:hidden;      
+}
 /* for specific class */
 .header{
     background-color: #333545;
@@ -250,6 +254,15 @@ body{
 }
 .width30per{
     width: 20%;
+}
+.regbutton{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.regbutton:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 
