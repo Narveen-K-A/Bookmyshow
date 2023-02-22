@@ -10,23 +10,31 @@
             <!--- header begins --->
             <cfinclude template="header.cfm">
             <cfinclude template="header2.cfm">
-            <div class="d-flex">
+            <div class="d-flex justify-content-center">
                 <div>
                     <a href="particularmovie.cfm">
-                        <img src="assets/pathaan.avif">
+                        <img src="assets/pathaan.avif" class="longImage">
                     </a>
                 </div>
                 <div>
-                    <img src="assets/malikappuram.avif">
+                    <a href="particularmovie.cfm">
+                        <img src="assets/malikappuram.avif" class="longImage">
+                    </a>
                 </div>
                 <div>
-                    <img src="assets/iratta.avif">
+                    <a href="particularmovie.cfm">
+                        <img src="assets/iratta.avif" class="longImage">
+                    </a>
                 </div>
                 <div>
-                    <img src="assets/romancham.avif">
+                    <a href="particularmovie.cfm">
+                        <img src="assets/romancham.avif" class="longImage">
+                    </a>
                 </div>
                 <div>
-                    <img src="assets/vedikettu.avif">
+                    <a href="particularmovie.cfm">
+                        <img src="assets/vedikettu.avif" class="longImage">
+                    </a>
                 </div>
             </div>
         </cfoutput>
