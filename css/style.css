@@ -129,6 +129,10 @@ body{
 }
 .background{
     background-color: #333;
+    text-decoration: none;
+}
+.color333{
+    color: #333;
 }
 /* for specific class */
 .header{
@@ -301,6 +305,14 @@ body{
     line-height: 1.17;
     margin-left: 75px;
     cursor: pointer;
+}
+.contact{
+    background-color: #ec5e71;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 

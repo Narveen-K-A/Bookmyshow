@@ -243,9 +243,12 @@
                     <img src="assets/prasadfrom.avif" alt="Prasadfrom" class="longImage">
                 </div>
             </div>
-            <div>
-                Home
+            <div class="marginleft60 color333">
+                <a href="home.cfm">Home</a>
             </div>
+            <cfinclude template="footer.cfm">
+            <cfinclude template="footer2.cfm">
+            <cfinclude template="footer4.cfm">
         </cfoutput>
     </body>
 </html>

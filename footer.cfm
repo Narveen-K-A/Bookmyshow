@@ -1,6 +1,6 @@
 <div>
-    <div>
-        <div>
+    <div class="d-flex justify-content-between">
+        <div class="d-flex">
             <div>
                 <img src="assets/hut.svg">
             </div>
@@ -12,20 +12,20 @@
             </div>
         </div>
         <div>
-            <button>Contact today!</button>
+            <button class="contact">Contact today!</button>
         </div>
     </div>
-    <div>
+    <div class="d-flex justify-content-center">
         <div>
-            <img>
+            <img src="assets/footericon.PNG"><br>
             24/7 CUSTOMER CARE
         </div>
         <div>
-            <img>
+            <img src="assets/footericon1.PNG"><br>
             RESEND BOOKING CONFIRMATION
         </div>
         <div>
-            <img>
+            <img src="assets/footericon2.PNG"><br>
             SUBSCRIBE TO THE NEWSLETTER
         </div>
     </div>
