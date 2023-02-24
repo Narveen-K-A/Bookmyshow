@@ -18,15 +18,15 @@
     <div class="d-flex justify-content-center">
         <div>
             <img src="assets/footericon.PNG"><br>
-            24/7 CUSTOMER CARE
+            <div>24/7 CUSTOMER CARE</div>
         </div>
         <div>
             <img src="assets/footericon1.PNG"><br>
-            RESEND BOOKING CONFIRMATION
+            <div>RESEND BOOKING CONFIRMATION</div>
         </div>
         <div>
             <img src="assets/footericon2.PNG"><br>
-            SUBSCRIBE TO THE NEWSLETTER
+            <div>SUBSCRIBE TO THE NEWSLETTER</div>
         </div>
     </div>
 </div>
