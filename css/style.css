@@ -134,6 +134,9 @@ body{
 .color333{
     color: #333;
 }
+.bg0000{
+    background-color: #0000;
+}
 /* for specific class */
 .header{
     background-color: #333545;

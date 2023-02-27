@@ -1,4 +1,4 @@
-<div>
+<div class="bg0000">
     <div class="d-flex justify-content-between">
         <div class="d-flex">
             <div>
